@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004A7F;
+    color: white;
+    padding: 20px;
+}
+.header h1 {
+    margin: 0;
+}
+.main-content {
+    padding: 20px;
+}
+form > div {
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit-button {
+    background-color: #004A7F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
